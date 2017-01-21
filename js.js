@@ -1,6 +1,6 @@
 $(document).ready(function() {
 	if (document.location.protocol == "http:") {
-		$('#welcome').html('Please use a <a href="https://codepen.io/mattgaskey/full/amybBb/" target="_blank" class="secure">secure connection</a> to access the weather.');
+		$('#welcome').html('Please use a <a href="https://mattgaskey.github.io/weather" target="_blank" class="secure">secure connection</a> to access the weather.');
 	} else if (document.location.protocol == "https:") {
 		weather();
 	}
